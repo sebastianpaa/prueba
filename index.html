@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Primera Página - Hola Mundo</title>
-</head>
-<body>
-    <h1>¡Hola Mundo Junito!</h1>
-    <p>Esta es mi primera página web subida a GitHub Pages.</p>
-    <p>Fecha actual: 10 de junio de 2025</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pagina de prueba</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <!-- Menú con botones -->
+    <div class="menu">
+      <button onclick="mostrarInicio()">Inicio</button>
+      <button onclick="mostrarEncriptador()">Encriptador</button>
+      <button onclick="mostrarAcercaDe()">Acerca de</button>
+    </div>
+
+    <!-- Área de contenido dinámico -->
+    <div class="contenido" id="contenidoPrincipal">
+      <h2>Bienvenido</h2>
+      <p>Haz clic en un botón del menú para mostrar contenido.</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
 </html>
